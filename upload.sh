@@ -9,6 +9,7 @@ white='\033[0m'
 yellow='\033[0;33m'
 
 # device info
+
 DEVICE_NAME=
 DEVICE_CODENAME=
 DEVICE_TREE=
