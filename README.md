@@ -15,17 +15,21 @@ Made by @Ex1skeleton01
 device_name=samsung
 codename=a05m
 
-# Source 
+# change source here
+
+# Device Tree
 echo -e "\n"
 echo -e "$yellow << upload device tree >> \n$green"
 echo -e "\n"
 git clone https://github.com/Ex1skeleton01/android_device_samsung_a05m.git device/$device_name/$codename
 
+# Vendor Tree
 echo -e "\n"
 echo -e "$white << upload vendor tree >> \n$red"
 echo -e "\n"
 git clone https://github.com/smiley9000/vendor_samsung_a05m.git vendor/$device_name/$codename
 
+# Kernel Tree
 echo -e "\n"
 echo -e "$green << upload kernel tree >> \n$yellow"
 echo -e "\n"
