@@ -2,9 +2,9 @@
 
 #selinux patch
 
-echo "------------------------------------------------"
+echo "-----------------------------------------------"
 echo " We dont need selinux from Ram boost,iso,udf,aux "
-echo "------------------------------------------------"
+echo "-----------------------------------------------"
 
 # Define search paths
 SYSTEM_PRIVATE_DIR="system/sepolicy/private/"
