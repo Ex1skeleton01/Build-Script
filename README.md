@@ -1,2 +1,2 @@
-# Script Upload
-Made by @Ex1skeleton01
+# script upload
+made with love ❤️
