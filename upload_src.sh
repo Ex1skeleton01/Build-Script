@@ -9,38 +9,37 @@ white='\033[0m'
 yellow='\033[0;33m'
 
 # device info
-
-device_name=samsung
-codename=a05m
-device_tree=https://github.com/Ex1skeleton01/android_device_samsung_a05m.git
-vendor_tree=https://github.com/smiley9000/vendor_samsung_a05m.git
-kernel_tree=https://github.com/Ex1skeleton01/android_kernel_samsung_a05m.git
+DEVICE_NAME=
+DEVICE_CODENAME=
+DEVICE_TREE=
+VENDOR_TREE=
+KERNEL_TREE=
 
 # cleaning file
 
 echo -e "\n"
 echo -e "$red << cleaning up >> \n$white"
 echo -e "\n"
-rm -rf device/$device_name
-rm -rf kernel/$device_name
-rm -rf vendor/$device_name
+rm -rf device/$DEVICE_NAME
+rm -rf kernel/$DEVICE_NAME
+rm -rf vendor/$DEVICE_NAME
 
 # upload source
 
 echo -e "\n"
 echo -e "$yellow << upload device tree >> \n$green"
 echo -e "\n"
-git clone $device_tree device/$device_name/$codename
+git clone $DEVICE_TREE device/$DEVICE_NAME/$DEVICE_CODENAME
 
 echo -e "\n"
 echo -e "$white << upload vendor tree >> \n$red"
 echo -e "\n"
-git clone $vendor_tree vendor/$device_name/$codename
+git clone $VENDOR_TREE vendor/$DEVICE_NAME/$DEVICE_CODENAME
 
 echo -e "\n"
 echo -e "$green << upload kernel tree >> \n$yellow"
 echo -e "\n"
-git clone $kernel_tree kernel/$device_name/$codename
+git clone $KERNEL_TREE kernel/$DEVICE_NAME/$DEVICE_CODENAME
 
 echo -e "\n"
 echo -e "$red << Upload Success >> \n$white"
