@@ -5,8 +5,8 @@ Made by @Ex1skeleton01
 ```bash
 
 # Device info
-device_name=samsung
-codename=a05m
+device_name=
+codename=
 device_tree=
 vendor_tree=
 kernel_tree=
