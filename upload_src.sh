@@ -8,8 +8,8 @@ white='\033[0m'
 yellow='\033[0;33m'
 
 # device info
-device_name=xiaomi
-codename=lavender
+device_name=samsung
+codename=a05m
 
 # cleaning file
 echo -e "\n"
