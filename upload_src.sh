@@ -10,6 +10,9 @@ yellow='\033[0;33m'
 # device info
 device_name=samsung
 codename=a05m
+device_tree=https://github.com/Ex1skeleton01/android_device_samsung_a05m.git
+vendor_tree=https://github.com/smiley9000/vendor_samsung_a05m.git
+kernel_tree=https://github.com/Ex1skeleton01/android_kernel_samsung_a05m.git
 
 # cleaning file
 echo -e "\n"
@@ -23,17 +26,17 @@ rm -rf vendor/$device_name
 echo -e "\n"
 echo -e "$yellow << upload device tree >> \n$green"
 echo -e "\n"
-git clone {link} device/$device_name/$codename
+git clone $device_tree device/$device_name/$codename
 
 echo -e "\n"
 echo -e "$white << upload vendor tree >> \n$red"
 echo -e "\n"
-git clone {link} vendor/$device_name/$codename
+git clone $vendor_tree vendor/$device_name/$codename
 
 echo -e "\n"
 echo -e "$green << upload kernel tree >> \n$yellow"
 echo -e "\n"
-git clone {link} kernel/$device_name/$codename
+git clone $kernel_tree kernel/$device_name/$codename
 
 echo -e "\n"
 echo -e "$red << Upload Success >> \n$white"
