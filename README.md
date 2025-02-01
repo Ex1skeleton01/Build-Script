@@ -1,6 +1,25 @@
 # script upload
 made with love ❤️
 
+## variable
+
+```bash
+# product name
+DEVICE_NAME=xiaomi
+
+# codename ur phone
+DEVICE_CODENAME=lavender
+
+# paste device tree here
+DEVICE_TREE=https://github.com/crdroidandroid/android_device_xiaomi_lavender.git
+
+# paste vendor tree here
+VENDOR_TREE=https://github.com/DerpFest-Devices/vendor_xiaomi_lavender.git
+
+# paste kernel source here
+KERNEL_TREE=https://github.com/crdroidandroid/android_kernel_xiaomi_lavender.git
+```
+
 ## dependency for ubuntu 
 
 with sudo
